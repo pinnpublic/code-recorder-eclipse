@@ -1,0 +1,7 @@
+build/
+dist/
+plugin/bin/
+*.coderec.json
+*.journal.jsonl
+*.partial
+player/
