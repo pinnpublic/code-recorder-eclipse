@@ -4,13 +4,13 @@
 
 ## 사용 환경
 
-확인된 환경은 **Eclipse IDE 2026-09 (4.41.0) / Windows**, IDE 실행용 **Java 25**입니다. IDE 실행용 Java와 프로젝트의 JDK 설정은 별개입니다. 확장 버전은 **0.3.4**입니다.
+확인된 환경은 **Eclipse IDE 2026-09 (4.41.0) / Windows**, IDE 실행용 **Java 25**입니다. IDE 실행용 Java와 프로젝트의 JDK 설정은 별개입니다. 확장 버전은 **0.3.5**입니다.
 
 ## 설치
 
 | 파일 | 용도 |
 |---|---|
-| `code-recorder-eclipse-update-site-0.3.4.zip` | Eclipse 확장 설치 |
+| `code-recorder-eclipse-update-site-0.3.5.zip` | Eclipse 확장 설치 |
 
 1. **Help → Install New Software… → Add… → Archive…**를 선택합니다.
 2. 제공된 확장 설치 ZIP을 선택합니다. 압축은 풀지 않습니다.

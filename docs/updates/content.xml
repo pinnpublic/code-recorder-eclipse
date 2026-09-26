@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?metadataRepository version='1.2.0'?>
+<repository name="file:////C:/code/code-recorder/code-recorder-eclipse/build/update-site-b5cebb30483b475582e9e544fa73abfe/repository - metadata" type="org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository" version="1">
+  <properties size="2">
+    <property name="p2.timestamp" value="1790409069563" />
+    <property name="p2.compressed" value="false" />
+  </properties>
+  <units size="4">
+    <unit id="file:/C:/code/code-recorder/code-recorder-eclipse/build/update-site-b5cebb30483b475582e9e544fa73abfe/source/site.xml.code-recorder" version="1.0.0.0579cN3gvE">
+      <properties size="2">
+        <property name="org.eclipse.equinox.p2.name" value="Code Recorder" />
+        <property name="org.eclipse.equinox.p2.type.category" value="true" />
+      </properties>
+      <provides size="1">
+        <provided namespace="org.eclipse.equinox.p2.iu" name="file:/C:/code/code-recorder/code-recorder-eclipse/build/update-site-b5cebb30483b475582e9e544fa73abfe/source/site.xml.code-recorder" version="1.0.0.0579cN3gvE" />
+      </provides>
+      <requires size="1">
+        <required namespace="org.eclipse.equinox.p2.iu" name="dev.coderecorder.feature.feature.group" range="[0.3.5,0.3.5]" />
+      </requires>
+    </unit>
+    <unit id="dev.coderecorder.feature.feature.jar" version="0.3.5">
+      <properties size="3">
+        <property name="org.eclipse.equinox.p2.name" value="Code Recorder for Eclipse" />
+        <property name="org.eclipse.equinox.p2.description" value="코드 작성 과정과 파일 변경을 기록하고 JSON 파일로 저장하는 Eclipse 확장 프로그램입니다." />
+        <property name="org.eclipse.equinox.p2.provider" value="pinnpublic" />
+      </properties>
+      <provides size="3">
+        <provided namespace="org.eclipse.equinox.p2.iu" name="dev.coderecorder.feature.feature.jar" version="0.3.5" />
+        <provided namespace="org.eclipse.equinox.p2.eclipse.type" name="feature" version="1.0.0" />
+        <provided namespace="org.eclipse.update.feature" name="dev.coderecorder.feature" version="0.3.5" />
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size="1">
+        <artifact classifier="org.eclipse.update.feature" id="dev.coderecorder.feature" version="0.3.5" />
+      </artifacts>
+      <touchpoint id="org.eclipse.equinox.p2.osgi" version="1.0.0" />
+      <touchpointData size="1">
+        <instructions size="1">
+          <instruction key="zipped">
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id="dev.coderecorder" version="0.3.5" generation="2">
+      <update id="dev.coderecorder" range="[0.0.0,0.3.5)" severity="0" />
+      <properties size="2">
+        <property name="org.eclipse.equinox.p2.name" value="Code Recorder" />
+        <property name="org.eclipse.equinox.p2.provider" value="Code Recorder" />
+      </properties>
+      <provides size="6">
+        <provided namespace="org.eclipse.equinox.p2.iu" name="dev.coderecorder" version="0.3.5" />
+        <provided namespace="osgi.bundle" name="dev.coderecorder" version="0.3.5" />
+        <provided namespace="java.package" name="dev.coderecorder" version="0.0.0" />
+        <provided namespace="java.package" name="dev.coderecorder.core" version="0.0.0" />
+        <provided namespace="osgi.identity" name="dev.coderecorder" version="0.3.5">
+          <properties size="1">
+            <property name="type" value="osgi.bundle" />
+          </properties>
+        </provided>
+        <provided namespace="org.eclipse.equinox.p2.eclipse.type" name="bundle" version="1.0.0" />
+      </provides>
+      <requires size="9">
+        <required namespace="osgi.bundle" name="org.eclipse.core.runtime" range="0.0.0" greedy="false" />
+        <required namespace="osgi.bundle" name="org.eclipse.core.resources" range="0.0.0" greedy="false" />
+        <required namespace="osgi.bundle" name="org.eclipse.core.filebuffers" range="0.0.0" greedy="false" />
+        <required namespace="osgi.bundle" name="org.eclipse.ui" range="0.0.0" greedy="false" />
+        <required namespace="osgi.bundle" name="org.eclipse.ui.ide" range="0.0.0" greedy="false" />
+        <required namespace="osgi.bundle" name="org.eclipse.ui.workbench.texteditor" range="0.0.0" greedy="false" />
+        <required namespace="osgi.bundle" name="org.eclipse.jface.text" range="0.0.0" greedy="false" />
+        <requiredProperties namespace="osgi.ee" match="(&amp;(osgi.ee=JavaSE)(version=21))">
+          <filter>
+            (!(org.eclipse.equinox.p2.disable.require.capability.osgi.ee=true))
+          </filter>
+          <description>
+            dev.coderecorder
+          </description>
+        </requiredProperties>
+        <required namespace="org.eclipse.equinox.p2.iu" name="dev.coderecorder.source" range="[0.3.5,0.3.5]" optional="true">
+          <filter>
+            (org.eclipse.update.install.sources=true)
+          </filter>
+        </required>
+      </requires>
+      <artifacts size="1">
+        <artifact classifier="osgi.bundle" id="dev.coderecorder" version="0.3.5" />
+      </artifacts>
+      <touchpoint id="org.eclipse.equinox.p2.osgi" version="1.0.0" />
+      <touchpointData size="1" />
+    </unit>
+    <unit id="dev.coderecorder.feature.feature.group" version="0.3.5" singleton="false">
+      <update id="dev.coderecorder.feature.feature.group" range="[0.0.0,0.3.5)" severity="0" />
+      <properties size="4">
+        <property name="org.eclipse.equinox.p2.name" value="Code Recorder for Eclipse" />
+        <property name="org.eclipse.equinox.p2.description" value="코드 작성 과정과 파일 변경을 기록하고 JSON 파일로 저장하는 Eclipse 확장 프로그램입니다." />
+        <property name="org.eclipse.equinox.p2.provider" value="pinnpublic" />
+        <property name="org.eclipse.equinox.p2.type.group" value="true" />
+      </properties>
+      <provides size="1">
+        <provided namespace="org.eclipse.equinox.p2.iu" name="dev.coderecorder.feature.feature.group" version="0.3.5" />
+      </provides>
+      <requires size="2">
+        <required namespace="org.eclipse.equinox.p2.iu" name="dev.coderecorder" range="[0.3.5,0.3.5]" />
+        <required namespace="org.eclipse.equinox.p2.iu" name="dev.coderecorder.feature.feature.jar" range="[0.3.5,0.3.5]">
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+    </unit>
+  </units>
+</repository>

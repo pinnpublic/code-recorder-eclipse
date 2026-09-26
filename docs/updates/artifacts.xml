@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='file:////C:/code/code-recorder/code-recorder-eclipse/build/update-site-b5cebb30483b475582e9e544fa73abfe/repository - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1790409069562'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='2'>
+    <artifact classifier='osgi.bundle' id='dev.coderecorder' version='0.3.5'>
+      <properties size='4'>
+        <property name='artifact.size' value='34498'/>
+        <property name='download.size' value='34498'/>
+        <property name='download.checksum.sha-512' value='497d30cc6f1cc3469332609a8afde48316ed7c8b0b13114e2b11ed0cda0051b2d0a9305b95f2a19058fd3fa715ab9f287666cc03282c9275892e8ee218bd6896'/>
+        <property name='download.checksum.sha-256' value='5888f9ea563cb2e03036818ff0abe6da04539890343dea96862cc4211111b2c5'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='dev.coderecorder.feature' version='0.3.5'>
+      <properties size='5'>
+        <property name='artifact.size' value='746'/>
+        <property name='download.size' value='746'/>
+        <property name='download.checksum.sha-512' value='0f688f65052968c82e66b0a5214fe2e8641127c6f1c5e56cec1733a0084f1bcd80ef316a57c2f5726bc24339ddd31156a80397014a28380b363bc321f8fbec87'/>
+        <property name='download.checksum.sha-256' value='7fd14e58918473f5fb9030975d7fdcfa6fa63b75f9b9869d704ad4248ad4f925'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
