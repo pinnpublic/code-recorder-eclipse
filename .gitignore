@@ -5,3 +5,4 @@ plugin/bin/
 *.journal.jsonl
 *.partial
 player/
+*.log
