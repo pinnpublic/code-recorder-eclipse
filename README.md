@@ -16,15 +16,13 @@
 
 ### Eclipse Marketplace
 
-[Code Recorder for Eclipse 등록 페이지](https://marketplace.eclipse.org/content/code-recorder-eclipse)
+[Code Recorder for Eclipse 설치 페이지](https://marketplace.eclipse.org/content/code-recorder-eclipse)
 
 1. Eclipse에서 **Help → Eclipse Marketplace…**를 엽니다.
 2. `Code Recorder for Eclipse`를 검색합니다.
 3. 사용 중인 IDE에 맞는 항목의 **Install**을 누릅니다.
 4. 설치 항목과 라이선스를 확인하고 설치한 뒤 IDE를 재시작합니다.
 5. **코드 녹화 → 녹화 창 열기**를 선택합니다.
-
-마켓 심사 중에는 검색·설치가 제공되지 않을 수 있습니다. 이 경우 아래 ZIP 설치 방법을 이용하세요.
 
 ### ZIP 파일
 
@@ -59,9 +57,6 @@
 
 파일당 2MB, 초기 텍스트 합계 약 64MB 제한이 있습니다. 큰 프로젝트는 필요한 하위 폴더를 선택하세요. 여러 탭이 있는 편집기는 **소스 탭**에서 사용합니다.
 
-## 플레이어
-
-[Eclipse 플레이어 열기](https://paper.pe.kr/code-recorder/eclipse/)
 
 ### 녹화 파일 열기
 
